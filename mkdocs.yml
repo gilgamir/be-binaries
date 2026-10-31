@@ -1,0 +1,91 @@
+site_name: Be binaires
+site_description: Suivi spectroscopique amateur d'étoiles Be binaires à compagnon sdO (59 Cyg, φ Per)
+site_url: https://gilgamir.github.io/be-binaries/
+repo_url: https://github.com/gilgamir/be-binaries
+repo_name: gilgamir/be-binaries
+edit_uri: edit/main/docs/
+copyright: Projet amateur ouvert — données déposées sur BeSS
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: fr
+  - blog:
+      blog_dir: journal
+      blog_toc: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - assets/js/phase.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Accueil: index.md
+  - Le projet:
+      - projet/science.md
+      - projet/objectifs.md
+      - projet/equipe.md
+  - Cibles:
+      - cibles/index.md
+      - 59 Cyg: cibles/59-cyg.md
+      - φ Per: cibles/phi-per.md
+      - Cibles futures: cibles/futures.md
+  - Observer:
+      - observer/index.md
+      - observer/protocole.md
+      - observer/reduction.md
+      - observer/bess.md
+      - observer/planning.md
+  - Résultats:
+      - resultats/index.md
+      - 59 Cyg: resultats/59-cyg.md
+      - φ Per: resultats/phi-per.md
+      - resultats/donnees.md
+  - Apprendre:
+      - apprendre/debuter.md
+      - apprendre/mesures.md
+      - apprendre/glossaire.md
+      - apprendre/bibliographie.md
+  - Journal:
+      - journal/index.md

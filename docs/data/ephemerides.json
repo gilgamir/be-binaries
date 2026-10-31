@@ -1,0 +1,19 @@
+{
+  "_comment": "Source unique des éphémérides, lue par scripts/ephemeris.py et docs/assets/js/phase.js. Renseigner T0 (HJD ou BJD, à préciser) depuis la publication citée avant toute utilisation scientifique.",
+  "59-cyg": {
+    "nom": "59 Cyg",
+    "hd": "HD 200120",
+    "periode_j": 28.1871,
+    "t0_jd": null,
+    "phase_zero": "à préciser selon la publication (passage au périastre ou conjonction)",
+    "reference": "Peters et al. 2013, ApJ 765, 2"
+  },
+  "phi-per": {
+    "nom": "φ Per",
+    "hd": "HD 10516",
+    "periode_j": 126.6982,
+    "t0_jd": null,
+    "phase_zero": "à préciser selon la publication",
+    "reference": "Mourard et al. 2015, A&A 577, A51"
+  }
+}
