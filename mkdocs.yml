@@ -65,12 +65,13 @@ nav:
   - Le projet:
       - projet/science.md
       - projet/objectifs.md
+      - projet/saison-2.md
       - projet/equipe.md
   - Cibles:
       - cibles/index.md
       - 59 Cyg: cibles/59-cyg.md
       - φ Per: cibles/phi-per.md
-      - Cibles futures: cibles/futures.md
+      - Cibles secondaires: cibles/secondaires.md
   - Observer:
       - observer/index.md
       - observer/protocole.md

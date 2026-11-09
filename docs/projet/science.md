@@ -2,36 +2,62 @@
 
 ## Les étoiles Be
 
-Une étoile Be est une étoile de type B, non supergéante, qui montre ou a montré des raies de Balmer en émission. Cette émission vient d'un **disque de décrétion** képlérien, alimenté par l'étoile elle-même. Sa rotation est proche de la vitesse critique.
+- Étoiles B de la séquence principale (5 à 15 M☉, 15 000 à 30 000 K) qui tournent à **75–95 % de leur vitesse critique** et éjectent un **disque de décrétion** en rotation képlérienne (Rivinius et al. 2013).
+- Le disque produit une raie **Hα en émission, souvent à deux pics** : la moitié du disque qui s'approche donne le pic bleu, celle qui s'éloigne le pic rouge.
+- Vitesses de rotation projetées : φ Per ≈ 460 km/s (Frémat et al. 2005), soit environ 93 % de la vitesse critique (Mourard et al. 2015) ; 59 Cyg ≈ 380 km/s (Peters et al. 2013).
 
-Le profil de Hα reflète la géométrie et la densité du disque : double pic, asymétrie V/R, profil « shell » quand le disque est vu par la tranche.
+!!! note "Élargissement ou décalage ?"
+    La rotation **élargit** les raies (ailes de Hα jusqu'à environ ±9–10 Å). Seuls le mouvement orbital et la zone chauffée **déplacent** une composante.
 
-## Pourquoi tant de Be sont binaires
+## L'origine binaire
 
-Un scénario largement admis fait naître une partie des étoiles Be d'un **transfert de masse** dans un système binaire :
+Scénario en trois temps :
 
-1. l'étoile la plus massive évolue la première et cède son enveloppe à sa compagne ;
-2. la compagne gagne de la masse et du moment cinétique, et se met à tourner très vite : elle devient une étoile Be ;
-3. le donneur, dépouillé, devient une **sous-naine chaude (sdO)**, petite, peu lumineuse dans le visible mais très chaude.
+1. Deux étoiles B serrées, avec une période de quelques jours.
+2. La plus massive évolue la première, gonfle et **cède son enveloppe** à sa compagne. Celle-ci gagne masse et moment cinétique : elle devient une Be.
+3. Il reste une Be en rotation rapide et le **noyau d'hélium nu** de la donneuse, sur une orbite élargie (1 à 12 mois).
 
-Les systèmes Be + sdO sont donc des témoins directs de cette évolution binaire.
+Argument observationnel fort : φ Per appartient vraisemblablement à l'amas α Per (≈ 52 Ma), alors qu'une étoile de 9,6 M☉ ne vit qu'environ 25 Ma. Elle a donc gagné sa masse récemment (Mourard et al. 2015).
 
-## Ce que l'on peut observer
+## Les sous-naines O (sdO)
 
-| Signature | Où | Ce qu'elle apprend |
+Propriétés, dans le cas de φ Per (Mourard et al. 2015 ; Gies et al. 1998) :
+
+- température ≈ 53 000 K, rayon ≈ 0,94 R☉ (contre 4,7 R☉ pour la Be), masse 1,2 ± 0,2 M☉ ;
+- luminosité ≈ la moitié de celle de la Be, mais rayonnée surtout en ultraviolet ;
+- sur le diagramme HR, à gauche (très chaude) et sous la séquence principale, d'où le nom de « sous-naine ». Elle brûle encore de l'hélium dans son cœur : ce n'est pas une naine blanche.
+
+### Pourquoi on ne la voit pas
+
+Part de la lumière du système φ Per venant du sdO :
+
+| Domaine | Part du sdO | Source |
 |---|---|---|
-| Émission Hα (EW, V/R, séparation des pics) | 6563 Å | État et structure du disque, perturbations par le compagnon |
-| **He I 6678** : composante d'émission mobile | 6678 Å | Zone du disque **chauffée par le sdO**, qui suit l'orbite |
-| He II 4686 | 4686 Å | Signature directe du sdO (difficile, haute résolution et bon SNR) |
-| Vitesses radiales | plusieurs raies | Orbite, masses |
+| Ultraviolet lointain | ≈ 16 % | Gies et al. 1998 (Hubble) |
+| Visible | ≈ 3 % | Mourard et al. 2015 (CHARA-VEGA) |
+| Infrarouge proche (bande H) | ≈ 1,5 % | Mourard et al. 2015 (CHARA-MIRC) |
 
-Le cœur du projet est la **variation en fonction de la phase orbitale**. Il faut donc des spectres bien répartis sur l'orbite et répétés sur plusieurs cycles.
+### Historique des détections
 
-## Pourquoi les amateurs
+| Année | Travaux | Apport |
+|---|---|---|
+| 1981 | Poeckert | Raie He II 4686 en antiphase dans φ Per : premier indice d'un compagnon très chaud |
+| 1998 | Gies et al. | Spectre UV du sdO de φ Per isolé avec Hubble ; masses des deux étoiles |
+| 2013 | Peters et al. | 59 Cyg : sdO détecté dans 157 spectres IUE ; suivi He I 6678 avec des spectres BeSS amateurs |
+| 2015 | Mourard et al. | φ Per : sdO détecté directement par interférométrie (CHARA), orbite 3D, distance |
+| 2017–2024 | Wang, Klement et al. | Une vingtaine de Be + sdO confirmées ; masses dynamiques pour environ huit systèmes |
 
-- La **couverture temporelle** : les campagnes professionnelles sont rarement assez denses et longues.
-- La **régularité** : un réseau d'observateurs comble les trous liés à la météo.
-- Les **instruments** : un Star'Ex ou un LHIRES 2400 atteint une résolution suffisante pour séparer les composantes d'émission.
+## La signature visible : He I 6678
 
-!!! note "À compléter"
-    Résumé des résultats publiés sur chaque cible (voir [Bibliographie](../apprendre/bibliographie.md)).
+- Le sdO éclaire et chauffe la partie du disque de la Be tournée vers lui. Cette zone émet dans **He I 6678 Å**.
+- Comme elle fait toujours face au compagnon, elle tourne avec lui : un **petit pic d'émission se déplace** dans la raie au rythme de l'orbite.
+- Pour 59 Cyg (Peters et al. 2013), l'amplitude du pic est **K_em = 180 ± 10 km/s** (≈ ±4 Å). Elle est plus grande que celle du sdO lui-même (K₂ ≈ 121 km/s), car la zone émettrice est plus proche de la Be : son rayon est estimé à R_em ≈ 0,44 a.
+- **Près des conjonctions**, la vitesse radiale de la zone chauffée tombe à zéro. Le pic passe au centre de la raie, sur l'absorption photosphérique, et se mesure mal. Pour un système vu presque par la tranche (φ Per, i ≈ 78°), une partie de la zone peut aussi être masquée.
+- **Autres traceurs du compagnon** : des absorptions « shell » transitoires dans He I, qui reviennent au rythme de l'orbite, et la raie He II 4686, qui trace le sdO ou le gaz qui l'entoure (voir [Saison 2](saison-2.md)).
+
+## Enjeux scientifiques
+
+- **Le destin du système.** Sous environ 1,6 M☉, le sdO finira en naine blanche. Au-delà, il explosera en supernova et laissera une étoile à neutrons : le système deviendra une binaire X à Be (Woosley 2019, cité par Klement et al. 2024). Masses mesurées : 60 Cyg 1,45 ; V2119 Cyg 1,35 ; φ Per 1,2 ; 28 Cyg 0,76 ; 7 Vul 0,48 M☉.
+- **Une énigme.** Les modèles d'évolution binaire prédisent bien plus d'étoiles « épluchées » qu'on n'en observe. Selon la piste de Schootemeijer et al. 2018, le sdO de φ Per serait dans une phase tardive, plus lumineuse que la moyenne : il pourrait exister jusqu'à une cinquantaine de sdO plus discrets pour chaque système comparable.
+- **Le cas γ Cas.** Son compagnon fait environ 1 M☉, mais aucun sdO n'a été détecté (Klement et al. 2024). Une naine blanche est privilégiée, ce qui pourrait expliquer ses rayons X durs.
+- **Le rôle des amateurs.** Klement et al. 2024 ont retenu V780 Cas et V2162 Cyg comme candidates Be + sdO **après inspection des spectres amateurs de BeSS** : profils Hα déformés, absorption shell transitoire dans He I, pics étroits mobiles dans He I. Des séries bien échantillonnées en phase ont exactement cette valeur.

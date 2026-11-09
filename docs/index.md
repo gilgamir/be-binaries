@@ -1,39 +1,45 @@
-# Be binaires
+# Démasquer le compagnon invisible d'une étoile Be
 
-**Suivi spectroscopique amateur d'étoiles Be en système binaire avec une sous-naine chaude (sdO).**
+*Projet de spectroscopie haute résolution — Société d'Astronomie de Rennes — saison 2026-27*
 
-Ce projet coordonne des observations amateurs, en haute et basse résolution, de deux premières cibles : **59 Cyg** et **φ Per**. L'objectif est de suivre, cycle après cycle, la façon dont le compagnon chaud façonne les raies d'émission du disque de l'étoile Be.
+Certaines étoiles Be doivent leur rotation extrême à un ancien transfert de masse dans un couple d'étoiles. Il en reste un compagnon : une **sous-naine O (sdO)**, cœur d'hélium très chaud mis à nu, qui ne fournit que 1 à 3 % de la lumière visible du système.
+
+Invisible directement, ce compagnon **chauffe la face du disque de la Be tournée vers lui**. Cette zone émet un petit pic dans la raie **He I 6678 Å**, qui suit l'orbite avec une amplitude d'environ ±180 km/s.
+
+Le projet consiste à suivre ce pic, nuit après nuit et à plusieurs observateurs, afin de **reconstituer la courbe de vitesse du compagnon et de la comparer aux éphémérides publiées**.
+
+!!! warning "Priorité actuelle : 59 Cyg, jusqu'à début décembre"
+    59 Cyg est encore observable 6 à 7 h par nuit en novembre, mais moins de 2 h à partir de janvier. Objectif : **2 à 3 spectres par semaine** pour couvrir au moins une orbite complète (28,2 j) avant qu'elle ne passe sous les masques.
 
 <div class="grid cards" markdown>
 
--   **59 Cyg**
+-   **59 Cyg** — cible prioritaire
 
     ---
 
-    P ≈ 28,2 j — phase du jour : <span class="phase-du-jour" data-cible="59-cyg">…</span>
+    P = 28,19 j — phase du jour : **<span class="phase-du-jour" data-cible="59-cyg">…</span>**
+    (φ = 0 : périastre)
 
     [Fiche](cibles/59-cyg.md) · [Résultats](resultats/59-cyg.md)
 
--   **φ Per**
+-   **φ Per** — de décembre à mars
 
     ---
 
-    P ≈ 126,7 j — phase du jour : <span class="phase-du-jour" data-cible="phi-per">…</span>
+    P = 126,70 j — phase du jour : **<span class="phase-du-jour" data-cible="phi-per">…</span>**
+    (φ = 0 : vitesse radiale minimale de la Be)
 
     [Fiche](cibles/phi-per.md) · [Résultats](resultats/phi-per.md)
 
 </div>
 
-## Pourquoi ces étoiles ?
-
-Une étoile Be est une étoile B en rotation rapide entourée d'un disque de gaz qui produit des raies en émission (Hα notamment). Dans les binaires Be + sdO, le compagnon est le résidu d'une étoile qui a cédé sa masse à l'étoile Be. Il est petit, très chaud, et il **éclaire et chauffe une partie du disque** : certaines raies varient alors en phase avec l'orbite.
-
-Ces variations se suivent très bien avec des spectrographes amateurs, à condition d'avoir **une bonne couverture en phase sur plusieurs cycles**. C'est là que les observateurs amateurs font la différence. [En savoir plus →](projet/science.md)
+Cibles complémentaires : 60 Cyg, 28 Cyg et γ Cas (cas témoin) — voir les [cibles secondaires](cibles/secondaires.md).
 
 ## Participer
 
-- Vous pratiquez la spectroscopie haute résolution et souhaitez contribuer : lisez le [protocole d'observation](observer/protocole.md).
-- Les échanges se font sur le **forum ARAS** *(lien vers le fil du projet à ajouter)*.
+Le programme s'adresse aux spectroscopistes équipés en haute résolution. Commencez par le [protocole d'observation](observer/protocole.md), puis consultez le [planning](observer/planning.md) pour viser les phases utiles.
+
+Les échanges se font sur le **forum ARAS** *(lien vers le fil du projet à ajouter)*.
 
 !!! info "Données"
     Tous les spectres sont déposés dans la base [BeSS](https://basebe.obspm.fr/). Ce site les recense et en présente les mesures.

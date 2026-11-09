@@ -1,19 +1,68 @@
 {
-  "_comment": "Source unique des éphémérides, lue par scripts/ephemeris.py et docs/assets/js/phase.js. Renseigner T0 (HJD ou BJD, à préciser) depuis la publication citée avant toute utilisation scientifique.",
+  "_comment": "Source unique des éphémérides, lue par scripts/ephemeris.py et docs/assets/js/phase.js. T0 en HJD ; la phase du site est calculée en JD (écart ≤ 8 min, négligeable pour la phase). ATTENTION : la définition de φ = 0 diffère selon les cibles.",
   "59-cyg": {
     "nom": "59 Cyg",
     "hd": "HD 200120",
+    "role": "principale",
     "periode_j": 28.1871,
-    "t0_jd": null,
-    "phase_zero": "à préciser selon la publication (passage au périastre ou conjonction)",
+    "periode_err_j": 0.0011,
+    "t0_jd": 2445677.6,
+    "t0_err_j": 0.3,
+    "echelle_t0": "HJD",
+    "phase_zero": "périastre",
+    "excentricite": 0.141,
     "reference": "Peters et al. 2013, ApJ 765, 2"
   },
   "phi-per": {
     "nom": "φ Per",
     "hd": "HD 10516",
+    "role": "principale",
     "periode_j": 126.6982,
-    "t0_jd": null,
-    "phase_zero": "à préciser selon la publication",
+    "periode_err_j": 0.0035,
+    "t0_jd": 2456110.00,
+    "t0_err_j": 0.12,
+    "echelle_t0": "HJD",
+    "phase_zero": "vitesse radiale minimale de la Be",
+    "excentricite": 0,
     "reference": "Mourard et al. 2015, A&A 577, A51"
+  },
+  "60-cyg": {
+    "nom": "60 Cyg",
+    "hd": "HD 200310",
+    "role": "secondaire",
+    "periode_j": 147.617,
+    "periode_err_j": 0.038,
+    "t0_jd": 2459598.5,
+    "t0_err_j": 0.9,
+    "echelle_t0": "HJD",
+    "phase_zero": "périastre",
+    "excentricite": 0.20,
+    "reference": "Klement et al. 2024, arXiv:2312.08252"
+  },
+  "28-cyg": {
+    "nom": "28 Cyg",
+    "hd": "HD 191610",
+    "role": "secondaire",
+    "periode_j": 359.260,
+    "periode_err_j": 0.041,
+    "t0_jd": 2459524.8,
+    "t0_err_j": 0.3,
+    "echelle_t0": "HJD",
+    "phase_zero": "quadrature, Be s'approchant",
+    "excentricite": 0,
+    "reference": "Klement et al. 2024, arXiv:2312.08252"
+  },
+  "gam-cas": {
+    "nom": "γ Cas",
+    "hd": "HD 5394",
+    "role": "témoin",
+    "periode_j": 203.52,
+    "periode_err_j": 0.08,
+    "t0_jd": 2452081.9,
+    "t0_err_j": 0.6,
+    "echelle_t0": "HJD",
+    "phase_zero": "vitesse radiale minimale de la Be",
+    "excentricite": 0,
+    "reference": "Nemravová et al. 2012, A&A 537, A59"
   }
 }

@@ -1,39 +1,42 @@
 # Protocole d'observation
 
-!!! note "Version 0 — à valider"
-    Les valeurs ci-dessous sont des propositions de départ. Elles seront ajustées après les premières acquisitions et les retours des participants.
+!!! note "Saison 2026-27"
+    Ce protocole est commun à tous les observateurs. Les réglages sont les mêmes pour tous afin que les spectres soient comparables entre eux.
 
-## Domaines spectraux
+## Fenêtre spectrale
 
-| Domaine | Raie | Priorité |
-|---|---|---|
-| 6530 – 6600 Å | Hα 6563 | indispensable |
-| 6650 – 6700 Å | He I 6678 | **prioritaire en haute résolution** |
-| 4660 – 4710 Å | He II 4686 | optionnel, observateurs très équipés |
+**6540–6690 Å**, pour avoir **Hα** et **He I 6678** dans une même prise.
 
-Selon la configuration (réseau, capteur), Hα et He I 6678 peuvent tenir dans une seule fenêtre ou demander deux réglages. Vérifiez votre couverture et indiquez-la dans votre fiche d'observateur.
+Cela reste à vérifier selon la caméra. Si la fenêtre ne tient pas, faites deux réglages, en donnant **la priorité à He I 6678 sur 59 Cyg**.
 
-## Exigences minimales (proposition)
+## Exigences
 
 | | |
 |---|---|
-| Résolution R | ≥ 10 000 |
-| SNR continuum | ≥ 100 à Hα, viser plus pour He I 6678 |
-| Étalonnage | lampe néon ou équivalent, avant et après la cible |
+| Résolution | R ≈ 10 000 (à confirmer sur la FWHM des raies néon) |
+| SNR au continu | **150 à 200**, nécessaire pour He I, qui est faible |
+| Étalonnage | lampe néon **avant et après chaque cible** |
+| Contrôle de l'étalonnage | sur les raies telluriques de l'eau, précision visée ≈ ±0,03 Å (±1,5 km/s) |
+| Datation | heure UT du **milieu de pose** |
 
 ## Cadence
 
-- **59 Cyg** (P ≈ 28 j) : 6 à 8 spectres par cycle, répartis en phase. Les nuits consécutives sont utiles.
-- **φ Per** (P ≈ 127 j) : environ un spectre par semaine, régulièrement sur toute la saison.
+| Cible | Cadence | Période d'observation |
+|---|---|---|
+| **59 Cyg** | **2 à 3 spectres par semaine** | maintenant → début décembre |
+| **φ Per** | 1 spectre par semaine | décembre → mars |
+| 60 Cyg, 28 Cyg, γ Cas | 1 spectre tous les 15 jours | selon la saison de chaque cible |
 
-Consultez le [planning](planning.md) pour viser en priorité les phases peu couvertes.
+Pour 59 Cyg, il faut au moins 4 à 5 spectres bien répartis en phase, idéalement 8 à 10, **en privilégiant les quadratures** (φ ≈ 0,24 et 0,83). Consultez le [planning](planning.md).
 
-## Étoile de référence
+## À noter pour chaque spectre
 
-Acquérez une **étoile chaude à raies larges et rapide en rotation** proche de la cible en masse d'air, pour la correction tellurique et la réponse instrumentale. Les choix recommandés par cible seront ajoutés ici.
+- Date et heure UT du milieu de pose, temps de pose total.
+- Conditions (seeing, nuages, Lune).
+- Toute **absorption « shell » transitoire** visible dans He I.
+- Près des conjonctions, un pic He I non séparé : notez-le comme tel plutôt que de donner une vitesse douteuse (voir [Mesures](../apprendre/mesures.md)).
 
 ## Bonnes pratiques
 
 - Vérifiez la mise au point et la position de la fente avant chaque série.
-- Notez les conditions (seeing, nuages, Lune) dans votre journal d'observation.
 - Gardez les images brutes : une re-réduction peut être nécessaire.

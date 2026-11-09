@@ -23,8 +23,13 @@
       }
       const cycles = (jdMaintenant() - e.t0_jd) / e.periode_j;
       const phase = cycles - Math.floor(cycles);
-      el.textContent = phase.toFixed(3) + " (cycle " + Math.floor(cycles) + ")";
-      el.title = "P = " + e.periode_j + " j — " + e.reference;
+      el.textContent = phase.toFixed(2).replace(".", ",");
+      el.title = "Cycle " + Math.floor(cycles) + " — φ = 0 : " + e.phase_zero +
+        " — P = " + e.periode_j + " j — " + e.reference;
+    });
+    document.querySelectorAll(".phase-def").forEach(function (el) {
+      const e = ephem[el.dataset.cible];
+      if (e) el.textContent = e.phase_zero;
     });
   }
 

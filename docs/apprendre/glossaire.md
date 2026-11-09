@@ -32,3 +32,24 @@
 
 **SNR**
 :   Rapport signal sur bruit, mesuré dans le continuum.
+
+**Conjonction**
+:   Moment de l'orbite où les deux étoiles sont alignées avec l'observateur. La vitesse radiale de la zone chauffée y est nulle : le pic He I passe au centre de la raie.
+
+**Quadrature**
+:   Moment de l'orbite où la vitesse radiale est extrême. C'est le meilleur moment pour mesurer le pic He I, bien séparé du centre de la raie.
+
+**Périastre**
+:   Point de l'orbite où les deux étoiles sont au plus près l'une de l'autre (orbites excentriques).
+
+**K (demi-amplitude)**
+:   Demi-amplitude de la courbe de vitesse radiale d'une étoile ou d'une composante (K₂ pour le sdO, K_em pour le pic He I).
+
+**JD, HJD, BJD**
+:   Date julienne ; corrigée du temps de trajet de la lumière vers le centre du Soleil (HJD) ou vers le barycentre du Système solaire (BJD).
+
+**Bissecteur**
+:   Ligne des milieux d'une raie à différentes hauteurs. Celui des ailes de Hα suit le mouvement orbital de la Be.
+
+**Zone chauffée**
+:   Partie du disque de la Be tournée vers le sdO, chauffée par son rayonnement ultraviolet. Elle émet en He I 6678.

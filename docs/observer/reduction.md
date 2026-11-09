@@ -1,22 +1,25 @@
 # Chaîne de réduction
 
-Logiciels recommandés : **SpecINTI** (Star'Ex, LHIRES) ou **ISIS**. Les étapes sont les mêmes.
+Logiciel : **SpecINTI**, avec **les mêmes réglages pour tous les observateurs**.
 
 ## Étapes
 
 1. **Prétraitement** : offset (bias), noir (dark), plage de lumière (flat).
 2. **Extraction** du profil spectral, avec suppression des rayons cosmiques.
-3. **Étalonnage en longueur d'onde** à partir de la lampe, avec le modèle polynomial adapté au réseau.
+3. **Étalonnage en longueur d'onde** à partir des poses néon encadrant la cible.
 4. **Réponse instrumentale** à partir de l'étoile de référence.
-5. **Correction tellurique**, indispensable autour de Hα, où les raies de H₂O sont nombreuses.
-6. **Normalisation** du continuum à 1.
-7. **Correction de vitesse** héliocentrique ou barycentrique (renseigner la valeur appliquée dans l'en-tête).
+5. **Correction des raies telluriques** (eau), indispensable avant les mesures d'EW de Hα.
+6. **Correction barycentrique** (jusqu'à ±30 km/s selon la saison). Indiquez la valeur appliquée dans l'en-tête.
+7. **Normalisation du continu** sur des **fenêtres communes**, fixées ensemble pour tout le projet, de part et d'autre de chaque raie.
+8. **Dépôt BeSS** au format standard (voir [Dépôt sur BeSS](bess.md)).
 
 ## Contrôles qualité
 
-- Les raies telluriques résiduelles sont bien faibles.
-- La position d'une raie connue (par exemple une raie interstellaire ou tellurique avant correction) est cohérente avec la précision d'étalonnage annoncée.
-- Le continuum est plat et normalisé, sans ondulation résiduelle.
+- Les raies telluriques de l'eau servent de contrôle d'étalonnage : précision visée ≈ ±0,03 Å, soit ±1,5 km/s.
+- Les raies telluriques résiduelles sont bien faibles après correction.
+- Le continu est plat et normalisé, sans ondulation résiduelle.
 
-!!! note "À compléter"
-    Paramètres SpecINTI recommandés (fichier de configuration type) pour Star'Ex 2400.
+!!! note "À fixer collectivement"
+    - Les fenêtres de continu communes pour Hα et He I 6678.
+    - La méthode de traitement du fond photosphérique He I (voir [Mesures](../apprendre/mesures.md)).
+    - Le fichier de configuration SpecINTI de référence pour Star'Ex 2400.
