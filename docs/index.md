@@ -32,8 +32,7 @@ Ces variations se suivent très bien avec des spectrographes amateurs, à condit
 
 ## Participer
 
-- Vous avez un spectrographe et souhaitez contribuer : lisez le [protocole d'observation](observer/protocole.md).
-- Vous débutez en spectroscopie : commencez par [Débuter](apprendre/debuter.md).
+- Vous pratiquez la spectroscopie haute résolution et souhaitez contribuer : lisez le [protocole d'observation](observer/protocole.md).
 - Les échanges se font sur le **forum ARAS** *(lien vers le fil du projet à ajouter)*.
 
 !!! info "Données"

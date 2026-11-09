@@ -18,4 +18,4 @@ Prochaines étapes :
 - renseigner les éphémérides de référence ;
 - acquérir les premiers spectres de la saison de φ Per.
 
-Toutes les bonnes volontés sont bienvenues, débutants compris.
+Les spectroscopistes équipés en haute résolution qui souhaitent participer sont les bienvenus.

@@ -15,11 +15,11 @@ Selon la configuration (réseau, capteur), Hα et He I 6678 peuvent tenir dans u
 
 ## Exigences minimales (proposition)
 
-| | Niveau 1 | Niveau 2 |
-|---|---|---|
-| Résolution R | ≥ 1000 | ≥ 10 000 |
-| SNR continuum | ≥ 100 | ≥ 100 à Hα, viser plus pour He I 6678 |
-| Étalonnage | lampe néon ou équivalent, avant/après la cible | idem, encadrement serré |
+| | |
+|---|---|
+| Résolution R | ≥ 10 000 |
+| SNR continuum | ≥ 100 à Hα, viser plus pour He I 6678 |
+| Étalonnage | lampe néon ou équivalent, avant et après la cible |
 
 ## Cadence
 

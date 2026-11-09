@@ -1,20 +1,8 @@
 # Participer aux observations
 
-Le projet accueille deux niveaux de contribution. Les deux sont utiles.
+Le programme s'adresse aux **spectroscopistes déjà équipés en haute résolution** (Star'Ex 2400, LHIRES 2400, échelle…), capables de produire des spectres conformes à BeSS.
 
-## Niveau 1 — Hα en basse ou moyenne résolution
-
-*Pour : Alpy 600, LHIRES 600 l/mm, Star'Ex 1800, réseaux à moyenne résolution…*
-
-- Mesure de l'**EW de Hα**, qui suit l'évolution globale du disque.
-- C'est un bon point d'entrée pour les débutants en spectroscopie.
-
-## Niveau 2 — Haute résolution Hα et He I 6678
-
-*Pour : Star'Ex 2400, LHIRES 2400, échelle…*
-
-- Profils de Hα résolus (V/R, séparation des pics).
-- **He I 6678**, la mesure clé pour suivre la zone chauffée par le sdO.
+Chaque participant prend en charge **une cible attitrée** et l'observe régulièrement selon le protocole. Ce sont les mesures de Hα et surtout de **He I 6678**, la raie qui trace la zone chauffée par le sdO, qui comptent.
 
 ## Étapes
 
