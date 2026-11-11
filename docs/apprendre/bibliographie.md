@@ -21,6 +21,7 @@
 
 **Gies D. R. et al. 1998**
 :   *Hubble Space Telescope Goddard High Resolution Spectrograph Observations of the Be + sdO Binary φ Persei*, ApJ 493, 440.
+    [Article](https://iopscience.iop.org/article/10.1086/305113)
 
 **Poeckert R. 1981**
 :   *A Spectroscopic Study of the Binary Be Star φ Persei*, PASP 93, 297.
