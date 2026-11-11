@@ -46,6 +46,10 @@
 :   *Properties and nature of Be stars. 29. Orbital and long-term spectral variations of γ Cassiopeiae*, A&A 537, A59.
     [arXiv:1111.3761](https://arxiv.org/abs/1111.3761)
 
+**Nazé Y., Tsujimoto M., Rauw G., Gunderson S. J. 2026**
+:   *Orbital motion detected in γ Cas Fe K emission lines*, A&A 707, A334.
+    [Article (PDF)](https://www.aanda.org/articles/aa/pdf/2026/03/aa58284-25.pdf)
+
 **Harmanec P. et al. 2002**
 :   *Properties and nature of Be stars. XXI. The long-term and the orbital variations of V832 Cyg = 59 Cyg*, A&A 387, 580.
 

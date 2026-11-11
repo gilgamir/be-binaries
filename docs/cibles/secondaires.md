@@ -52,9 +52,11 @@ Avec une période proche d'un an, une saison ne couvre qu'une partie de l'orbite
 | Compagnon | ≈ 1 M☉, naine blanche probable |
 | Hauteur max. | 77° |
 | Saison | octobre → février |
-| Référence | Nemravová et al. 2012 |
+| Références | Nemravová et al. 2012 (orbite) ; Nazé et al. 2026 (raies X du fer) |
 
 Aucun sdO n'a été détecté autour de γ Cas (Klement et al. 2024). Elle sert de **témoin** : une Be binaire sans zone chauffée par un compagnon très chaud. On ne s'attend donc pas au pic mobile en He I 6678.
+
+Nazé et al. 2026 ont détecté le mouvement orbital dans les raies X du fer (Fe K) : leur vitesse suit le compagnon compact et non la Be. Cela conforte l'hypothèse d'une naine blanche qui accrète de la matière et produirait les rayons X durs de γ Cas.
 
 ## Cible écartée : κ Dra
 
