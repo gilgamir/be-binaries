@@ -23,7 +23,3 @@ Les mots-clés ci-dessous sont ceux couramment exigés. **Reportez-vous à la do
 | `BSS_TELL` | Méthode de correction tellurique |
 | `BSS_COSM` | Méthode de suppression des cosmiques |
 | `CRVAL1`, `CDELT1`, `CRPIX1` | Échelle en longueur d'onde |
-
-## Après le dépôt
-
-Indiquez votre spectre sur le fil ARAS du projet. Il sera intégré automatiquement aux [résultats](../resultats/index.md) à la prochaine mise à jour.
