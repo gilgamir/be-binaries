@@ -2,9 +2,11 @@
 
 Ces cibles complètent le programme avec une cadence plus légère : **un spectre tous les 15 jours**.
 
+<p class="phase-horodatage" data-format="court"></p>
+
 ## 60 Cyg
 
-**Phase du jour : <span class="phase-du-jour" data-cible="60-cyg">…</span>** (φ = 0 : périastre)
+**Phase : <span class="phase-du-jour" data-cible="60-cyg">…</span>** (φ = 0 : périastre)
 
 | | |
 |---|---|
@@ -22,7 +24,7 @@ Avec 1,45 M☉, son sdO est l'un des plus massifs connus, proche du seuil au-del
 
 ## 28 Cyg
 
-**Phase du jour : <span class="phase-du-jour" data-cible="28-cyg">…</span>** (φ = 0 : quadrature, Be s'approchant)
+**Phase : <span class="phase-du-jour" data-cible="28-cyg">…</span>** (φ = 0 : quadrature, Be s'approchant)
 
 | | |
 |---|---|
@@ -40,7 +42,7 @@ Avec une période proche d'un an, une saison ne couvre qu'une partie de l'orbite
 
 ## γ Cas — cas témoin {#cas-temoin-cas}
 
-**Phase du jour : <span class="phase-du-jour" data-cible="gam-cas">…</span>** (φ = 0 : vitesse radiale minimale de la Be)
+**Phase : <span class="phase-du-jour" data-cible="gam-cas">…</span>** (φ = 0 : vitesse radiale minimale de la Be)
 
 | | |
 |---|---|

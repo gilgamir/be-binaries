@@ -17,7 +17,7 @@ Le projet consiste à suivre ce pic, nuit après nuit et à plusieurs observateu
 
     ---
 
-    P = 28,19 j — phase du jour : **<span class="phase-du-jour" data-cible="59-cyg">…</span>**
+    P = 28,19 j — phase : **<span class="phase-du-jour" data-cible="59-cyg">…</span>**
     (φ = 0 : périastre)
 
     [Fiche](cibles/59-cyg.md) · [Résultats](resultats/59-cyg.md)
@@ -26,12 +26,16 @@ Le projet consiste à suivre ce pic, nuit après nuit et à plusieurs observateu
 
     ---
 
-    P = 126,70 j — phase du jour : **<span class="phase-du-jour" data-cible="phi-per">…</span>**
+    P = 126,70 j — phase : **<span class="phase-du-jour" data-cible="phi-per">…</span>**
     (φ = 0 : vitesse radiale minimale de la Be)
 
     [Fiche](cibles/phi-per.md) · [Résultats](resultats/phi-per.md)
 
 </div>
+
+<p class="phase-horodatage" data-format="court"></p>
+
+Pour préparer une nuit, calculez les phases à une autre date sur la page [Planning](observer/planning.md).
 
 Cibles complémentaires : 60 Cyg, 28 Cyg et γ Cas (cas témoin) — voir les [cibles secondaires](cibles/secondaires.md).
 

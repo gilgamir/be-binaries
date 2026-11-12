@@ -56,6 +56,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+extra_css:
+  - assets/css/phase.css
+
 extra_javascript:
   - assets/js/phase.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

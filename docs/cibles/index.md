@@ -14,15 +14,19 @@ Le site d'observation est urbain (Rennes, terrasse avec des immeubles au nord et
 
 κ Dra (Be + sdB, P = 61,5 j) a été écartée : elle culmine à environ 68° plein nord, sous le masque.
 
-## Éphémérides et phase du jour
+## Éphémérides et phase orbitale
 
-| Cible | P (j) | T0 | Définition de φ = 0 | e | Phase du jour | Source |
+<p class="phase-horodatage"></p>
+
+| Cible | P (j) | T0 | Définition de φ = 0 | e | Phase | Source |
 |---|---|---|---|---|---|---|
 | 59 Cyg | 28,1871 ± 0,0011 | HJD 2 445 677,6 ± 0,3 | périastre | 0,141 | <span class="phase-du-jour" data-cible="59-cyg">…</span> | Peters et al. 2013 |
 | 60 Cyg | 147,617 ± 0,038 | HJD 2 459 598,5 ± 0,9 | périastre | 0,20 | <span class="phase-du-jour" data-cible="60-cyg">…</span> | Klement et al. 2024 |
 | 28 Cyg | 359,260 ± 0,041 | HJD 2 459 524,8 ± 0,3 | quadrature, Be s'approchant | 0 | <span class="phase-du-jour" data-cible="28-cyg">…</span> | Klement et al. 2024 |
 | φ Per | 126,6982 ± 0,0035 | HJD 2 456 110,00 ± 0,12 | vitesse radiale minimale de la Be | 0 | <span class="phase-du-jour" data-cible="phi-per">…</span> | Mourard et al. 2015 |
 | γ Cas | 203,52 ± 0,08 | HJD 2 452 081,9 ± 0,6 | vitesse radiale minimale de la Be | 0 | <span class="phase-du-jour" data-cible="gam-cas">…</span> | Nemravová et al. 2012 |
+
+Pour calculer les phases à une autre date, voir la page [Planning](../observer/planning.md).
 
 !!! warning "Piège : la phase 0 n'a pas le même sens partout"
     La définition de φ = 0 varie d'un article à l'autre (périastre, quadrature, vitesse minimale de la Be). Vérifiez toujours avant de comparer des courbes entre cibles ou avec la littérature.

@@ -1,6 +1,8 @@
 # 59 Cyg
 
-**Phase du jour : <span class="phase-du-jour" data-cible="59-cyg">…</span>** (φ = 0 : périastre)
+**Phase : <span class="phase-du-jour" data-cible="59-cyg">…</span>** (φ = 0 : périastre)
+
+<p class="phase-horodatage" data-format="court"></p>
 
 !!! warning "Cible prioritaire jusqu'à début décembre 2026"
     2 à 3 spectres par semaine. Elle redevient observable au printemps et en été 2027.

@@ -1,14 +1,24 @@
 # Planning
 
-## Phase du jour
+## Phase orbitale
 
-| Cible | Période | Définition de φ = 0 | Phase actuelle |
+<p class="phase-horodatage"></p>
+
+| Cible | Période | Définition de φ = 0 | Phase |
 |---|---|---|---|
 | **59 Cyg** | 28,19 j | périastre | <span class="phase-du-jour" data-cible="59-cyg">…</span> |
 | **φ Per** | 126,70 j | vitesse radiale minimale de la Be | <span class="phase-du-jour" data-cible="phi-per">…</span> |
 | 60 Cyg | 147,62 j | périastre | <span class="phase-du-jour" data-cible="60-cyg">…</span> |
 | 28 Cyg | 359,26 j | quadrature, Be s'approchant | <span class="phase-du-jour" data-cible="28-cyg">…</span> |
 | γ Cas | 203,52 j | vitesse radiale minimale de la Be | <span class="phase-du-jour" data-cible="gam-cas">…</span> |
+
+<form class="phase-calcul">
+<label>Calculer pour une autre date :</label>
+<input type="date" aria-label="Date">
+<input type="time" aria-label="Heure locale">
+<button type="submit">Calculer</button>
+<button type="button" data-action="maintenant">Revenir à maintenant</button>
+</form>
 
 La phase est calculée par φ = partie décimale de (JD − T0) / P.
 

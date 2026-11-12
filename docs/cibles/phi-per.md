@@ -1,6 +1,8 @@
 # φ Per
 
-**Phase du jour : <span class="phase-du-jour" data-cible="phi-per">…</span>** (φ = 0 : vitesse radiale minimale de la Be)
+**Phase : <span class="phase-du-jour" data-cible="phi-per">…</span>** (φ = 0 : vitesse radiale minimale de la Be)
+
+<p class="phase-horodatage" data-format="court"></p>
 
 !!! info "Saison"
     Observable d'octobre à mars ; elle prend le relais de 59 Cyg en décembre. Cadence : **un spectre par semaine**.
