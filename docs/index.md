@@ -43,7 +43,5 @@ Cibles complémentaires : 60 Cyg, 28 Cyg et γ Cas (cas témoin) — voir les [c
 
 Le programme s'adresse aux spectroscopistes équipés en haute résolution. Commencez par le [protocole d'observation](observer/protocole.md), puis consultez le [planning](observer/planning.md) pour viser les phases utiles.
 
-Les échanges se font sur le **forum ARAS** *(lien vers le fil du projet à ajouter)*.
-
 !!! info "Données"
     Tous les spectres sont déposés dans la base [BeSS](https://basebe.obspm.fr/). Ce site les recense et en présente les mesures.
