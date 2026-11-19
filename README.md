@@ -27,4 +27,4 @@ Dans les paramètres du dépôt : *Settings → Pages → Source : GitHub Action
 
 ## Contribuer
 
-Ouvrez une *issue* ou une *pull request*. Les discussions scientifiques ont lieu sur le forum ARAS.
+*A venir*
